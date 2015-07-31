@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Mmh-SJ-ZEU">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="GHQ-OZ-Xss">
+            <objects>
+                <navigationController id="Mmh-SJ-ZEU" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fkS-Vm-Du0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="0.26435332667230549" blue="0.11336491987639519" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="cnM-Kg-GRl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qj0-n0-Dmf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1234" y="579"/>
+        </scene>
+        <!--截屏-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController title="截屏" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="luFei" translatesAutoresizingMaskIntoConstraints="NO" id="REw-3T-Lmg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.64813421774677193" green="0.85604896713114997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="REw-3T-Lmg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="NjD-pO-Cik"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="REw-3T-Lmg" secondAttribute="bottom" constant="-44" id="OT2-Ve-81v"/>
+                            <constraint firstItem="REw-3T-Lmg" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="aAu-Pa-Bpw"/>
+                            <constraint firstAttribute="trailing" secondItem="REw-3T-Lmg" secondAttribute="trailing" id="nLx-SR-B3k"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="cwx-OV-AYn">
+                        <barButtonItem key="rightBarButtonItem" width="100" style="plain" systemItem="camera" id="ytX-uU-LPq">
+                            <color key="tintColor" red="0.13246030557349622" green="0.56453780787234875" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="captureScreenAction:" destination="vXZ-lx-hvc" id="yUd-GN-ORP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-579" y="587"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="luFei" width="1759" height="996"/>
+    </resources>
+</document>

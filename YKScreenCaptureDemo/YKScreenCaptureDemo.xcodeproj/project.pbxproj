@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D048D762696C4CA3DC50A4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D97BDA9B5B9E41F6FB4A41 /* libPods.a */; };
+		D14AF1E01B6B1A9C005378CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AF1DF1B6B1A9C005378CF /* main.m */; };
+		D14AF1E31B6B1A9C005378CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AF1E21B6B1A9C005378CF /* AppDelegate.m */; };
+		D14AF1E61B6B1A9C005378CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AF1E51B6B1A9C005378CF /* ViewController.m */; };
+		D14AF1E91B6B1A9C005378CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14AF1E71B6B1A9C005378CF /* Main.storyboard */; };
+		D14AF1EB1B6B1A9C005378CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14AF1EA1B6B1A9C005378CF /* Images.xcassets */; };
+		D14AF1EE1B6B1A9C005378CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14AF1EC1B6B1A9C005378CF /* LaunchScreen.xib */; };
+		D14AF1FA1B6B1A9C005378CF /* YKScreenCaptureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AF1F91B6B1A9C005378CF /* YKScreenCaptureDemoTests.m */; };
+		D14AF2041B6B1B32005378CF /* to@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D14AF2031B6B1B32005378CF /* to@2x.png */; };
+		D14AF2081B6B1BEC005378CF /* YKScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = D14AF2071B6B1BEC005378CF /* YKScreenShot.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D14AF1F41B6B1A9C005378CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14AF1D21B6B1A9C005378CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14AF1D91B6B1A9C005378CF;
+			remoteInfo = YKScreenCaptureDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68D97BDA9B5B9E41F6FB4A41 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14AF1DA1B6B1A9C005378CF /* YKScreenCaptureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKScreenCaptureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14AF1DE1B6B1A9C005378CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14AF1DF1B6B1A9C005378CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D14AF1E11B6B1A9C005378CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D14AF1E21B6B1A9C005378CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D14AF1E41B6B1A9C005378CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D14AF1E51B6B1A9C005378CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D14AF1E81B6B1A9C005378CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D14AF1EA1B6B1A9C005378CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D14AF1ED1B6B1A9C005378CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D14AF1F31B6B1A9C005378CF /* YKScreenCaptureDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKScreenCaptureDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14AF1F81B6B1A9C005378CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14AF1F91B6B1A9C005378CF /* YKScreenCaptureDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKScreenCaptureDemoTests.m; sourceTree = "<group>"; };
+		D14AF2031B6B1B32005378CF /* to@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "to@2x.png"; path = "../to@2x.png"; sourceTree = "<group>"; };
+		D14AF2061B6B1BEC005378CF /* YKScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKScreenShot.h; sourceTree = "<group>"; };
+		D14AF2071B6B1BEC005378CF /* YKScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKScreenShot.m; sourceTree = "<group>"; };
+		F471ED81CBF3B5F355169FCF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F85735B6F5A59D966571E9D7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14AF1D71B6B1A9C005378CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D048D762696C4CA3DC50A4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14AF1F01B6B1A9C005378CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		889533AAB41F9A1C517BBF2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F471ED81CBF3B5F355169FCF /* Pods.debug.xcconfig */,
+				F85735B6F5A59D966571E9D7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8AD5372C79026FD0FE36154 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68D97BDA9B5B9E41F6FB4A41 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D14AF1D11B6B1A9C005378CF = {
+			isa = PBXGroup;
+			children = (
+				D14AF1DC1B6B1A9C005378CF /* YKScreenCaptureDemo */,
+				D14AF1F61B6B1A9C005378CF /* YKScreenCaptureDemoTests */,
+				D14AF1DB1B6B1A9C005378CF /* Products */,
+				889533AAB41F9A1C517BBF2F /* Pods */,
+				B8AD5372C79026FD0FE36154 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D14AF1DB1B6B1A9C005378CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D14AF1DA1B6B1A9C005378CF /* YKScreenCaptureDemo.app */,
+				D14AF1F31B6B1A9C005378CF /* YKScreenCaptureDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14AF1DC1B6B1A9C005378CF /* YKScreenCaptureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D14AF2051B6B1BCE005378CF /* YKScreenShot */,
+				D14AF1E11B6B1A9C005378CF /* AppDelegate.h */,
+				D14AF1E21B6B1A9C005378CF /* AppDelegate.m */,
+				D14AF1E41B6B1A9C005378CF /* ViewController.h */,
+				D14AF1E51B6B1A9C005378CF /* ViewController.m */,
+				D14AF1E71B6B1A9C005378CF /* Main.storyboard */,
+				D14AF1EA1B6B1A9C005378CF /* Images.xcassets */,
+				D14AF2031B6B1B32005378CF /* to@2x.png */,
+				D14AF1EC1B6B1A9C005378CF /* LaunchScreen.xib */,
+				D14AF1DD1B6B1A9C005378CF /* Supporting Files */,
+			);
+			path = YKScreenCaptureDemo;
+			sourceTree = "<group>";
+		};
+		D14AF1DD1B6B1A9C005378CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D14AF1DE1B6B1A9C005378CF /* Info.plist */,
+				D14AF1DF1B6B1A9C005378CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D14AF1F61B6B1A9C005378CF /* YKScreenCaptureDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D14AF1F91B6B1A9C005378CF /* YKScreenCaptureDemoTests.m */,
+				D14AF1F71B6B1A9C005378CF /* Supporting Files */,
+			);
+			path = YKScreenCaptureDemoTests;
+			sourceTree = "<group>";
+		};
+		D14AF1F71B6B1A9C005378CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D14AF1F81B6B1A9C005378CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D14AF2051B6B1BCE005378CF /* YKScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				D14AF2061B6B1BEC005378CF /* YKScreenShot.h */,
+				D14AF2071B6B1BEC005378CF /* YKScreenShot.m */,
+			);
+			name = YKScreenShot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D14AF1D91B6B1A9C005378CF /* YKScreenCaptureDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14AF1FD1B6B1A9C005378CF /* Build configuration list for PBXNativeTarget "YKScreenCaptureDemo" */;
+			buildPhases = (
+				6FBFAAD32B3AE05CD1412241 /* Check Pods Manifest.lock */,
+				D14AF1D61B6B1A9C005378CF /* Sources */,
+				D14AF1D71B6B1A9C005378CF /* Frameworks */,
+				D14AF1D81B6B1A9C005378CF /* Resources */,
+				473C8852F3B33008FCEE1A6E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKScreenCaptureDemo;
+			productName = YKScreenCaptureDemo;
+			productReference = D14AF1DA1B6B1A9C005378CF /* YKScreenCaptureDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D14AF1F21B6B1A9C005378CF /* YKScreenCaptureDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14AF2001B6B1A9C005378CF /* Build configuration list for PBXNativeTarget "YKScreenCaptureDemoTests" */;
+			buildPhases = (
+				D14AF1EF1B6B1A9C005378CF /* Sources */,
+				D14AF1F01B6B1A9C005378CF /* Frameworks */,
+				D14AF1F11B6B1A9C005378CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14AF1F51B6B1A9C005378CF /* PBXTargetDependency */,
+			);
+			name = YKScreenCaptureDemoTests;
+			productName = YKScreenCaptureDemoTests;
+			productReference = D14AF1F31B6B1A9C005378CF /* YKScreenCaptureDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14AF1D21B6B1A9C005378CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "王永康";
+				TargetAttributes = {
+					D14AF1D91B6B1A9C005378CF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D14AF1F21B6B1A9C005378CF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D14AF1D91B6B1A9C005378CF;
+					};
+				};
+			};
+			buildConfigurationList = D14AF1D51B6B1A9C005378CF /* Build configuration list for PBXProject "YKScreenCaptureDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14AF1D11B6B1A9C005378CF;
+			productRefGroup = D14AF1DB1B6B1A9C005378CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14AF1D91B6B1A9C005378CF /* YKScreenCaptureDemo */,
+				D14AF1F21B6B1A9C005378CF /* YKScreenCaptureDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D14AF1D81B6B1A9C005378CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14AF1E91B6B1A9C005378CF /* Main.storyboard in Resources */,
+				D14AF1EE1B6B1A9C005378CF /* LaunchScreen.xib in Resources */,
+				D14AF2041B6B1B32005378CF /* to@2x.png in Resources */,
+				D14AF1EB1B6B1A9C005378CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14AF1F11B6B1A9C005378CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		473C8852F3B33008FCEE1A6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FBFAAD32B3AE05CD1412241 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D14AF1D61B6B1A9C005378CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14AF1E61B6B1A9C005378CF /* ViewController.m in Sources */,
+				D14AF1E31B6B1A9C005378CF /* AppDelegate.m in Sources */,
+				D14AF1E01B6B1A9C005378CF /* main.m in Sources */,
+				D14AF2081B6B1BEC005378CF /* YKScreenShot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14AF1EF1B6B1A9C005378CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14AF1FA1B6B1A9C005378CF /* YKScreenCaptureDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D14AF1F51B6B1A9C005378CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14AF1D91B6B1A9C005378CF /* YKScreenCaptureDemo */;
+			targetProxy = D14AF1F41B6B1A9C005378CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D14AF1E71B6B1A9C005378CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14AF1E81B6B1A9C005378CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D14AF1EC1B6B1A9C005378CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14AF1ED1B6B1A9C005378CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D14AF1FB1B6B1A9C005378CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D14AF1FC1B6B1A9C005378CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D14AF1FE1B6B1A9C005378CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F471ED81CBF3B5F355169FCF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKScreenCaptureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D14AF1FF1B6B1A9C005378CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85735B6F5A59D966571E9D7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKScreenCaptureDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D14AF2011B6B1A9C005378CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YKScreenCaptureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKScreenCaptureDemo.app/YKScreenCaptureDemo";
+			};
+			name = Debug;
+		};
+		D14AF2021B6B1A9C005378CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YKScreenCaptureDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKScreenCaptureDemo.app/YKScreenCaptureDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D14AF1D51B6B1A9C005378CF /* Build configuration list for PBXProject "YKScreenCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14AF1FB1B6B1A9C005378CF /* Debug */,
+				D14AF1FC1B6B1A9C005378CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14AF1FD1B6B1A9C005378CF /* Build configuration list for PBXNativeTarget "YKScreenCaptureDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14AF1FE1B6B1A9C005378CF /* Debug */,
+				D14AF1FF1B6B1A9C005378CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14AF2001B6B1A9C005378CF /* Build configuration list for PBXNativeTarget "YKScreenCaptureDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14AF2011B6B1A9C005378CF /* Debug */,
+				D14AF2021B6B1A9C005378CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D14AF1D21B6B1A9C005378CF /* Project object */;
+}
